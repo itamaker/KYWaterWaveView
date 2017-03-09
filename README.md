@@ -1,4 +1,12 @@
-# KYWaterWaveView
+<p align="left" >
+  <img src="logo_.png" alt="KYWaterWaveView" title="KYWaterWaveView">
+</p>
+
+
+![CocoaPods Version](https://img.shields.io/badge/pod-v1.1.0-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-iOS-red.svg)
+
 
 ### 一个内置波浪动画的UIView。
 #### A view with water wave animation inside.
@@ -6,15 +14,18 @@
 ![](water.gif)
 
 
+##Installation
+
+`pod 'KYWaterWaveView', '~> 1.1.0'`
+
 ## Usage
 
  You can use code or xib to create;
  Then set the properties;
  
- ```
+ ```objective-c
 @property (nonatomic, assign) CGFloat waveSpeed;     // Default as 6
 @property (nonatomic, assign) CGFloat waveAmplitude; // Default as 6
-@property (nonatomic, strong) UIColor   *waveColor; // Default as [UIColor blueColor]
  ```
  
  Most importantly, do not forget to call `[waterView wave]`; 
@@ -26,7 +37,7 @@
 ##License
 The MIT License (MIT)
 
-Copyright (c) 2015 0dayZh
+Copyright (c) 2015 KittenYang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
